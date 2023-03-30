@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+	<div id="div1">
+		<h1>hello</h1>
+		<p class="intro">pera</p>
+		<h1>hello</h1>
+		<p class="intro">pera</p>
+		<h1>hello</h1>
+		<p class="intro">pera</p>
+	</div>
+
+	<script type="text/javascript">
+		// var p_tag = document.querySelector('p.intro');
+
+		
+		var p_tag = document.querySelectorAll('p.intro');
+
+		console.log(p_tag.length);
+
+		for(var i=0; i<p_tag.length; i++)
+		{
+			p_tag[i].innerHTML = "good";
+		}
+ 		
+	</script>
+
+
+
+
+
+</body>
+</html>

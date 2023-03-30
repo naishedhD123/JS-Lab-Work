@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+	<div id="div1">
+		<p>This is p Tag</p>
+	</div>
+
+	<script type="text/javascript">
+		
+		div_tag = document.getElementById('div1');
+
+		h1 = document.createElement('h1');
+		// text = document.createTextNode("This is h1 Tag");
+		// h1.appendChild(text);
+
+		h1.textContent = "create text through property";
+		
+
+		h1.className = "try";
+		h1.id = "hii";
+
+		// div_tag.appendChild(h1);
+		document.body.appendChild(h1);
+	</script>
+
+</body>
+</html>

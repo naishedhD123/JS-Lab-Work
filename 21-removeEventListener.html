@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		header{
+			padding: 40px;
+			background: red;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+
+	<header id="header">header</header>
+
+	<script type="text/javascript">
+		document.getElementById("header").addEventListener('mouseleave',abc);
+
+		document.getElementById("header").removeEventListener('click',xzy);
+
+		function abc() {
+			document.getElementById("header").style.background = "pink";
+		}
+
+		function xzy(){
+			document.getElementById("header").removeEventListener('mouseleave',abc);
+		}
+
+
+	</script>
+
+</body>
+</html>

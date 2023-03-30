@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		.h1{
+
+		}
+	</style>
+</head>
+<body>
+
+	<input type="text" name="" id="input1" onblur="test2(input1)">
+	<input type="text" name="" id="input2" onblur="test2(input2)">
+	<input type="text" name="" id="input3" onblur="test2(input3)">
+
+	<h1 id="h1" onclick="test(h1)">dcs</h1>
+	<h1 id="h2" onclick="test(h2)">dcs</h1>
+	<h1 id="h3" onclick="test(h3)">dcs</h1>
+
+
+	<script type="text/javascript">
+		function test(x)
+		{
+			// console.log(x);
+			x.style.color = "blue";
+		}
+
+		function test2(y)
+		{
+			console.log(y);
+			y.style.background = "red"
+		}
+	</script>
+
+</body>
+</html>

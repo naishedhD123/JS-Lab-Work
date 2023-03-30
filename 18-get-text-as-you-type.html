@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+	<input type="text" name="" id="inpu">
+	<textarea id="textA" row="40" cols="20px"></textarea>
+	<button onclick="getText()">Get Text</button>
+
+	<script type="text/javascript">
+		
+		i = document.getElementById('inpu');
+		t = document.getElementById('textA');
+
+		console.log(i);
+		console.log(t);
+
+		function getText() {
+			t.innerHTML = i.value;
+		}
+	</script>
+
+</body>
+</html>

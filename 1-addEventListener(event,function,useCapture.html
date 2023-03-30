@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		#outer{
+			height: 200px;
+			width: 200px;
+			background-color: orange;
+			text-align: center;
+			font-size: 18px;
+			font-weight: bold;
+		}
+		#inner{
+			height: 100px;
+			width: 100px;
+			background-color: green;
+			margin: 30px auto;
+			text-align: center;
+			line-height: 90px;
+			
+		}
+	</style>
+</head>
+<body>
+
+	<div id="outer">outer div<h3>
+		<div id="inner">inner div</div>
+	</div>
+
+
+
+	<script type="text/javascript">
+		document.getElementById('inner').addEventListener('click',function() {
+			alert('Inner Div');
+		},true)
+
+		document.getElementById('outer').addEventListener('click',function(){
+			alert('Outer Div');
+		},true)
+	</script>
+
+</body>
+</html>

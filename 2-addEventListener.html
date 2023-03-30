@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+	<p id="p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	<button id="b">click</button>
+
+	<script type="text/javascript">
+		
+		// click Event
+		// document.getElementById('b').addEventListener("click",abc);
+		// document.getElementById('b').addEventListener("click",function(){
+		// document.getElementById('p').style.border = "2px solid green";
+		// });
+
+		// function abc()
+		// {
+		// 		document.getElementById('p').style.color = "red";
+		// }
+
+		// p = document.getElementById('p');
+		// btn = document.getElementById('b');
+
+		// console.log(p)
+		// console.log(btn)
+
+
+		// mouseenter Event
+		// btn.addEventListener("click",abc)	//mouseenter
+		
+
+		// btn.addEventListener("click",function abc() 
+		// {
+		// 	p.style.display="none";
+		// });
+
+		document.getElementById("p").onclick = abc;
+
+
+
+		function abc() 
+		{
+			p.style.color ="red";
+			// document.getElementById("p").style.color = "red";
+		}
+
+		
+	</script>
+
+</body>
+</html>

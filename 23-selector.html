@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+	<div id="div1">
+		<h1>hello</h1>
+		<p>pera</p>
+		<h1>hello</h1>
+		<p>pera</p>
+		<h1>hello</h1>
+		<p>pera</p>
+	</div>
+
+	<script type="text/javascript">
+		var div1 = document.getElementById('div1');
+		var h1 = div1.getElementsByTagName('h1');
+
+		console.log(h1);
+
+		for (var i = 0; i < h1.length; i++) 
+		{
+			h1[i].innerHTML = "okk";
+ 		}
+	</script>
+
+
+
+
+
+</body>
+</html>

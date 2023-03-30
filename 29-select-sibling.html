@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+	<ul id="lis">
+		<li>list 1</li>
+		<li id="s">list 2</li>
+		<li>list 3</li>
+		<li>list 4</li>
+	</ul>
+
+	<script type="text/javascript">
+		var ul = document.getElementById('s');
+		var first = ul.previousElementSibling;
+		var third = ul.nextElementSibling;
+
+		console.log(third);
+
+		
+	</script>
+
+</body>
+</html>
